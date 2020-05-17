@@ -1,0 +1,16 @@
+{
+  "name": "node-serverless-skeletoni",
+  "version": "1.0.0",
+  "description": "Skeleton of a Node AWS Lambda function ",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^6.1.4"
+  },
+  "dependencies": {}
+}

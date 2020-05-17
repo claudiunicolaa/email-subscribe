@@ -1,0 +1,21 @@
+org: claudiunicola96
+app: node-serverless-skeleton
+service: node-serverless-skeleton
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  timeout: 10
+  stage: dev
+  region: eu-central-1
+
+plugins:
+  - serverless-offline
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /
+          method: get
