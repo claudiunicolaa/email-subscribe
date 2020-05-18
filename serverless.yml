@@ -1,4 +1,4 @@
-service: node-serverless-skeleton
+service: email-subscribe
 
 provider:
   name: aws
@@ -12,8 +12,8 @@ plugins:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: handler.run
     events:
       - http:
           path: /
-          method: get
+          method: post
