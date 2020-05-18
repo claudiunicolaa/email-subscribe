@@ -1,5 +1,3 @@
-org: claudiunicola96
-app: node-serverless-skeleton
 service: node-serverless-skeleton
 
 provider:

@@ -1,5 +1,5 @@
 {
-  "name": "node-serverless-skeletoni",
+  "name": "node-serverless-skeleton",
   "version": "1.0.0",
   "description": "Skeleton of a Node AWS Lambda function ",
   "main": "handler.js",
