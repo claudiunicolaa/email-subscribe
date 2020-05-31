@@ -1,20 +1,22 @@
-# Skeleton of a Node AWS Lambda function
+# email-subscribe function
 
-## Prerequisites
+## API Documentation
 
-- npm v6.14
-
-## Configure & Install
-
-Make init.sh executable running `chmod +x init.sh`.
-
-Specify your project name when running `./init.sh project_name`.
-
-- npm install
+```bash
+curl --location --request POST 'https://function-url.com/' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+	"email": "email-address@gmail.com"
+}'
+```
 
 ## Local development
 
-- sls offline start --skipCacheInvalidation
+### Prerequisites
+
+- npm v6.14
+
+- serverless offline start --skipCacheInvalidation
 
 ## Deploy
 
